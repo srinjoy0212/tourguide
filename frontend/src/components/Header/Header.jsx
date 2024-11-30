@@ -279,9 +279,7 @@ const Header = () => {
               )}
               {role === "admin" && (
                 <>
-                  <Link to="/all-booking" onClick={handleMenuToggle}>
-                    Bookings
-                  </Link>
+                  
                   <Link to="/all-tours" onClick={handleMenuToggle}>
                     Tours
                   </Link>

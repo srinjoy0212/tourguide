@@ -44,8 +44,8 @@ const Login = () => {
         });
         toast.success(result.message);
 
-        {
-          result.role === "admin" ? navigate("/all-booking") : navigate("/");
+        {oking
+          result.role === "admin" ? navigate("/all-tours") : navigate("/");
         }
       } else {
         toast.error(result.message);

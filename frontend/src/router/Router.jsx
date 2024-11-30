@@ -21,7 +21,6 @@ const Router = () => {
         <Route path='/' element={<Navigate to='/home' />} />
         <Route path='/home' element={<Home />} />
         <Route path='/my-account' element={<MyAccount />} />
-        <Route path='/all-booking' element={<Bookings />} />
         <Route path='/all-tours' element={<AdminTours />} />
         <Route path='/update-tour/:id' element={<UpdateTours />} />
         <Route path='/create' element={<CreateTours />} />
